@@ -18,7 +18,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/2/2.jpg')})`}"
       )
       .bloque-texto-g__texto.p-5
-        p.mb-0 #[b Se debe identificar] y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores
+        p.mb-0 #[b Se debe identificar] y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores.
     .row.justify-content-center.mb-5
       .col-lg-10
         div(style="background-color: #faedc0").d-inline-flex.align-items-start
@@ -27,10 +27,10 @@
             p Hay que recordar que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Tabla 1 
-      br
-      span.fst-italic Modelo de registro para el manejo externo de los residuos
+      | #[em Modelo de registro para el manejo externo de los residuos]\
     .tabla-a.color-acento-botones.mb-5
       table
+        caption Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
         thead
           tr(style="background-color: #BADC61")
             th Número
@@ -111,7 +111,6 @@
             td 
             td Si
             td 
-    figcaption.d-inline-block.mb-5 Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Transporte externo de residuos sólidos
@@ -124,7 +123,7 @@
           .col-md-5.mb-4.mb-md-0
             .tarjeta.rounded-circle.color-primario.d-inline-block.p-3.mb-4
               h4.text-white.mb-0.mx-1 1
-            p #[b Identificación del vehículo:] En los vehículos se utiliza señalización visible, indicando el tipo de residuos que transportan, especificando el nombre del municipio(s), el nombre de la empresa con dirección y teléfono. Acondicionamiento del vehículo: El transporte se realiza en vehículos cerrados, con adecuaciones necesarias para evitar el derrame o esparcimiento de residuos en vías y estacionamientos.
+            p #[b Identificación del vehículo:] en los vehículos se utiliza señalización visible, indicando el tipo de residuos que transportan, especificando el nombre del municipio(s), el nombre de la empresa con dirección y teléfono. Acondicionamiento del vehículo: el transporte se realiza en vehículos cerrados, con adecuaciones necesarias para evitar el derrame o esparcimiento de residuos en vías y estacionamientos.
 
           .col-md-7
             figure
@@ -178,7 +177,7 @@
           .col-md-5.mb-4.mb-md-0
             .tarjeta.rounded-circle.color-primario.d-inline-block.p-3.mb-4
               h4.text-white.mb-0.mx-1 7
-            p Los vehículos destinados a la recolección de residuos hospitalarios y similares, además de las anteriores características, cumplirán con lo establecido en la Resolución 2309 de 1986 y las normas vigentes. Siempre que los residuos lleguen a la instalación del prestador del servicio especial de aseo, deben pesarse y verificarse las condiciones de empaque en las cuales fueron entregadas por cada uno de los generadores, consignando estos datos, como también fecha, hora, y razón social del generador en el formulario RHPS si recoge residuos hospitalarios y similares. Las operaciones diarias serán consolidadas de manera mensual y cada seis meses el prestador del servicio público especial de aseo debe enviar el reporte consolidado mensual a la autoridad ambiental, conjuntamente con el informe de implementación del Plan de Gestión Integral de Residuos
+            p Los vehículos destinados a la recolección de residuos hospitalarios y similares, además de las anteriores características, cumplirán con lo establecido en la Resolución 2309 de 1986 y las normas vigentes. Siempre que los residuos lleguen a la instalación del prestador del servicio especial de aseo, deben pesarse y verificarse las condiciones de empaque en las cuales fueron entregadas por cada uno de los generadores, consignando estos datos, como también fecha, hora, y razón social del generador en el formulario RHPS si recoge residuos hospitalarios y similares. Las operaciones diarias serán consolidadas de manera mensual y cada seis meses el prestador del servicio público especial de aseo debe enviar el reporte consolidado mensual a la autoridad ambiental, conjuntamente con el informe de implementación del Plan de Gestión Integral de Residuos.
 
           .col-md-7
             figure
@@ -189,10 +188,16 @@
     p.mb-5(data-aos='fade-right') Se debe realizar seguimiento a las empresas gestoras para verificar su cumplimiento ambiental. Analizar la siguiente tabla 2 para que se identifiquen los elementos de tal seguimiento.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
-      br
-      span.fst-italic Inspección de gestores externos
-    .row.justify-content-center.mb-5
-      .col-lg-10
+      | #[em Inspección de gestores externos]
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-10
+    //-     div(style="background-color: #f6f6f6 ")
+    //-       .tabla-b.mb-5
+    //-         .tabla-b__header(style="background-color: #80cab6 ")
+    //-           h5.mb-0(style="color: #12263F") Niveles del lenguaje
+    //-         table
+    //-           tr
+    //-             td Get back to work. Learn from criticism.
         img(src='@/assets/curso/temas/2/10.svg', alt='')
     figcaption.d-inline-block.mb-4 Nota. Área metropolitana Valle de Aburra (2013).
     p.mb-5 #[b En este proceso de seguimiento a las empresas gestoras de los residuos es muy IMPORTANTE:]
@@ -203,8 +208,12 @@
             .col-md-1: img(src='@/assets/curso/temas/2/11.svg', alt='')
             .col-md-10.mb-4.mb-md-0
               p.mb-0 Es indispensable tener los documentos de: licencia ambiental, permisos, cámara de comercio o documentos que garanticen que son los encargados de manejar ese tipo de residuo. 
-                br
-                |Identificar que estos documentos estén al día y vigentes.
+                
+        .tarjeta(titulo="" style="background-color: #DEEFFF").p-4
+          .row.justify-content-center.align-items-center
+            .col-md-1: img(src='@/assets/curso/temas/2/11.svg', alt='')
+            .col-md-10.mb-4.mb-md-0
+              p.mb-0 Identificar que estos documentos estén al día y vigentes.
         .tarjeta(titulo="" style="background-color: #DEEFFF").p-4
           .row.justify-content-center.align-items-center
             .col-md-1: img(src='@/assets/curso/temas/2/12.svg', alt='')
@@ -219,13 +228,12 @@
           .row.justify-content-center.align-items-center
             .col-md-1: img(src='@/assets/curso/temas/2/14.svg', alt='')
             .col-md-10.mb-4.mb-md-0
-              p.mb-0 Si el algún caso de los certificados entregados cuando tenemos varios gestores las cantidades disminuye porque hubo perdidas del residuo por ser no aprovechables como pasa en el despiece de RAEES, garantizar que la sumatoria de los certificados entregados del gestor ambiental sean exactas a las entregadas así algunos materiales se pesen para reciclar y otros para disposición final debo garantizar las cantidades entregadas a las cantidades de salida por el gestor ambiental.
+              p.mb-0 Si el algún caso de los certificados entregados cuando tenemos varios gestores las cantidades disminuye porque hubo pérdidas del residuo por ser no aprovechables como pasa en el despiece de RAEES, garantizar que la sumatoria de los certificados entregados del gestor ambiental sean exactas a las entregadas así algunos materiales se pesen para reciclar y otros para disposición final debo garantizar las cantidades entregadas a las cantidades de salida por el gestor ambiental.
         .tarjeta(titulo="" style="background-color: #DEEFFF").p-4
           .row.justify-content-center.align-items-center
             .col-md-1: img(src='@/assets/curso/temas/2/15.svg', alt='')
             .col-md-10.mb-4.mb-md-0
               p.mb-0 Sin el certificado del gestor no le es posible entregar la cantidad exacta de lo que le entregó porque maneja residuos de varios generadores y entrega un certificado de cantidades grandes por ser el total de lo recogido de varias empresas; se debe solicitar que entregue el detallado, no sirve uno general porque no se identifica la trazabilidad o que apodere un documento adicional que garantice lo que se le entregó y sea válido para la autoridad ambiental.
-    p.mb-5(data-aos='fade-right') Se debe desarrollar la siguiente actividad, en la cual se podrá poner a prueba la aprehensión de los contenidos y conceptos trabajados hasta este punto, dentro del componente formativo. ¡Adelante!
     .row.justify-content-center.mb-5
       .col-lg-10 
         .tarjeta.color-primario.p-3.mb-5

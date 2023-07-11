@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Gestionar integralmente el manejo de residuos, según normativa vigente.',
+    componenteFormativo: 'Monitoreo en la gestión integral de residuo',
     descripcionCurso:
       'En este componente formativo, partiendo de una base teórica-conceptual se realizará la explicación de la gestión externa en la empresa con relación al plan de gestión integral de residuos y el monitoreo de la gestión integral de residuos, necesarios en los procesos de mejora continua de las organizaciones',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -45,7 +44,7 @@ export default {
         titulo:
           'Gestión Externa de la gestión integral de los residuos sólidos ',
         desarrolloContenidos: true,
-        ubMenu: [
+        subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
@@ -66,7 +65,7 @@ export default {
         numero: '3',
         titulo: 'Monitoreo de la gestión integral de los residuos sólidos ',
         desarrolloContenidos: true,
-        ubMenu: [
+        subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
@@ -154,7 +153,7 @@ export default {
     {
       tema: '2.2 Empresas gestoras de los residuos sólidos ',
       referencia:
-        'Transporte residuos peligrosos soluciones de saneamiento ambiental. (2013). Transporte residuos peligrosos [Video]. Youtube.  ',
+        'Transporte residuos peligrosos soluciones de saneamiento ambiental. (2013). <em>Transporte residuos peligrosos</em> [Video]. Youtube.  ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=PjUOEpTLbBg ',
     },
@@ -219,24 +218,24 @@ export default {
   referencias: [
     {
       referencia:
-        'Área de Salud de Cáceres. (2015). Manual de gestión interna y externa de residuos.  ',
+        'Área de Salud de Cáceres. (2015). <em>Manual de gestión interna y externa de residuos.</em>  ',
       link: 'https://www.areasaludcaceres.es/docs/files/1195img.pdf ',
     },
     {
       referencia:
-        'Área metropolitana del Valle de Aburrá (2016). Manual para el manejo integral de residuos sólidos en el Valle de Aburrá. ',
-      link:
-        'Área metropolitana del Valle de Aburrá (2016). Manual para el manejo integral de residuos sólidos en el Valle de Aburrá. ',
+        'Área metropolitana del Valle de Aburrá (2016). <em>Manual para el manejo integral de residuos sólidos en el Valle de Aburrá.</em> ',
+      link: 'https://asei.com.co/files/28_08_2013_02_43_59__upload.pdf',
     },
     {
       referencia:
-        'Área Metropolitana Valle de Aburrá. (2013). Plan de gestión integral de desechos o residuos peligrosos.  ',
+        'Área Metropolitana Valle de Aburrá. (2013). <em>Plan de gestión integral de desechos o residuos peligrosos.</em>  ',
       link:
         'https://www.metropol.gov.co/ambiental/residuos-solidos/GestionRespel/FORMATOS%20GUIA%20RESPEL.pdf  ',
     },
     {
-      referencia: 'Creos Ltda (2016) Indicadores tablas unificadas de mando.',
-      link: 'Creos Ltda (2016) Indicadores tablas unificadas de mando.',
+      referencia:
+        'Creos Ltda (2016) <em>Indicadores tablas unificadas de mando.</em>',
+      link: 'https://www.creosltda.com/creos2/index.php/sogc/indicadores.html',
     },
     {
       referencia:
@@ -252,7 +251,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Minas y Energía. (2010). Indicadores de gestión.',
+        'Ministerio de Minas y Energía. (2010). <em>Indicadores de gestión.</em>',
       link: 'https://es.slideshare.net/albacora_48/indicadores-de-gestion-mme',
     },
     {
@@ -262,13 +261,13 @@ export default {
     },
     {
       referencia:
-        'Universidad Pontificia Bolivariana. (2011). Guía para la gestión de residuos peligrosos. ',
+        'Universidad Pontificia Bolivariana. (2011). <em>Guía para la gestión de residuos peligrosos.</em> ',
       link:
         'https://www.metropol.gov.co/ambiental/residuos-solidos/GestionRespel/GUIA_RESPEL.pdf  ',
     },
     {
       referencia:
-        'Universidad Pontificia Bolivariana y Área Metropolitana del Valle de Aburrá. (2008). Guía para el manejo integral de residuos.  ',
+        'Universidad Pontificia Bolivariana y Área Metropolitana del Valle de Aburrá. (2008). <em>Guía para el manejo integral de residuos.</em>  ',
       link:
         'https://www.sabaneta.gov.co/files/doc_varios/Gu%C3%ADa%20para%20el%20Manejo%20Integral%20de%20Residuos-%20Subsector%20instituciones%20educativas.pdf ',
     },
@@ -283,9 +282,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -293,9 +293,30 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Distrito Capital',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -315,9 +336,28 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Gabriel Urueta ',
+          cargo: 'Actividad didáctica  ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres ',
+          cargo: 'Validación audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
       ],
     },
@@ -325,14 +365,16 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Luis Gabriel Urueta ',
+          cargo: 'Validación Contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Daniel Mutis',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

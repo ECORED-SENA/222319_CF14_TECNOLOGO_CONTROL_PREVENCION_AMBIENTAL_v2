@@ -17,12 +17,12 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1 Elaboración de un plan de seguimiento
     .row.justify-content-center.mb-5
-      .col-lg-2.col-4: img(src='@/assets/curso/temas/3/2.svg', alt='')
+      .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/2.svg', alt='')
       .col-lg-10
         p.mb-0(data-aos='fade-right') #[span.sb1 El Plan de Seguimiento, permite la verificación del cumplimiento de las medidas propuestas en el Manejo Integral de Residuos.] Se pueden utilizar herramientas como formatos de verificación, que pueden ser diligenciados por el Grupo de Gestión Ambiental o Gestor Ambiental, en visitas de seguimiento al interior de la organización, o por personal que se encuentre directamente relacionado con el manejo de los residuos, como el de aseo o de oficios generales.
-    .tarjeta.bg-slyde.p-5.mb-4
-      .row.justify-content-center
-        .col-lg-5
+    .tarjeta.bg-slyde.p-lg-5.p-3.mb-4
+      .row.justify-content-center.mb-5
+        .col-lg-5.mb-lg-0.mb-3
           .tarjeta.bg-white.p-4
             .titulo-sexto.color-acento-botones(data-aos='fade-right')
               h5.mb-4 Personal de aseo o servicios generales
@@ -32,13 +32,12 @@
             .titulo-sexto.color-acento-botones(data-aos='fade-right')
               h5.mb-4 Los formatos
               .row.justify-content-center
-                .col-lg-2: img(src='@/assets/curso/temas/3/3.svg', alt='')
+                .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/3.svg', alt='')
                 .col-lg-10
                   p Las observaciones referenciadas en los formatos deben ser entregadas periódicamente al Grupo de Gestión Ambiental o al Gestor Ambiental, para realizar los análisis respectivos y acometer los ajustes necesarios al proceso.
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Tabla 1
-        br
-        span.fst-italic Actividades de seguimiento de la gestión ambiental en residuos.
+        h5 Tabla 3
+        | #[em Actividades de seguimiento de la gestión ambiental en residuos.]
       .tabla-a.color-acento-botones.mb-5
         table
           thead
@@ -49,7 +48,11 @@
           tbody.bg-white
             tr
               td.fw-bold.text-center Capacitación
-              td Verificar el cumplimiento de las capacitaciones programadas
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar el cumplimiento de las capacitaciones programadas
               td Coordinador general
                 br
                 |Grupo de Gestión
@@ -57,58 +60,87 @@
                 |Ambiental
             tr
               td.fw-bold.text-center Separación en la fuente
-              td Identificar y verificar si se están separando adecuadamente los residuos generados en cada sector de la organización.
-                p.ms-3 Visitas a cada sector
-                  br
-                  |Entrevista al personal de servicios generales
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Identificar y verificar si se están separando adecuadamente los residuos generados en cada sector de la organización.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Visitas a cada sector
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Entrevista al personal de servicios generales
               td Grupo de Gestión
                 br
                 |Ambiental
             tr
               td.fw-bold.text-center Almacenamiento
-              td Revisar si los sitios de almacenamiento cumplen con los requerimientos establecidos, mediante visitas programadas en compañía del personal de oficios varios.
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Revisar si los sitios de almacenamiento cumplen con los requerimientos establecidos, mediante visitas programadas en compañía del personal de oficios varios.
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Tratamiento
-              td Verificar la entrega oportuna de los residuos a los entes externos encargados de su tratamiento.
-                br
-                | Determinar pesos de material entregado, así como los cambios que puedan generarse.
-                br
-                | Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar la entrega oportuna de los residuos a los entes externos encargados de su tratamiento.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Determinar pesos de material entregado, así como los cambios que puedan generarse.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Disposición final
-              td Verificar entrega oportuna de residuos que se disponen en relleno.
-                br
-                |Determinar pesos de material entregado a la empresa de aseo encargada del transporte de los residuos.
-                br
-                |Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar entrega oportuna de residuos que se disponen en relleno.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Determinar pesos de material entregado a la empresa de aseo encargada del transporte de los residuos.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Análisis de indicadores,elaboración de declaratoria
-              td Verificar rutas resolución interna y de horarios establecidos.
-                br
-                |Cantidad de residuos separados por tipo
-                br
-                |Cantidad de residuos tratados
-                br
-                |Cantidad de residuos dispuestos en relleno sanitarios
-                br
-                |Cantidad de residuos reciclados y/o reutilizados.
+              td 
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Verificar rutas resolución interna y de horarios establecidos.
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Cantidad de residuos separados por tipo
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Cantidad de residuos tratados
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Cantidad de residuos dispuestos en relleno sanitarios
+                  li.d-flex
+                    i.fas.fa-check
+                    p.mb-0 Cantidad de residuos reciclados y/o reutilizados.
+              
+              
               td Grupo de Gestión Ambiental
       .row.justify-content-center
-        .col-lg-5
+        .col-lg-10
           .tarjeta.bg-white.p-4
             .titulo-sexto.color-acento-botones(data-aos='fade-right')
               h5.mb-4 Listas de chequeo
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/3/4.svg', alt='')
+                .col-lg-1.col-2: img(src='@/assets/curso/temas/3/4.svg', alt='')
                 .col-lg-10
                   p Se requiere usar para el seguimiento, listas de chequeo, que pueden hacerse a manera de inspecciones planificadas cada cierto tiempo y mínimo una auditoría interna anual. 
-                    br
-                    br
-                    |Es recomendable visitar el material complementario #[b Anexo Tabla 6 y Tabla 7. Auditoría interna para profundizar en ello.]
-        .col-lg-5      
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2 Indicadores
@@ -126,13 +158,14 @@
             p.px-5 Este indicador muestra la disminución en la cantidad total residuos generados por la organización incluyendo el material aprovechable y no aprovechable, peligroso o no peligroso, en otras palabras, es la sumatoria de todos los residuos generados, durante un periodo de tiempo determinado, el nivel de referencia se establece con el dato de generación de residuos aportado en el diagnóstico o con los datos del primer año de registros, comparado mes a mes:
             img(src='@/assets/curso/temas/3/6.svg', alt='').px-5
           div(titulo="Indicadores de destinación:")
-            p Es el cálculo de la cantidad de residuos sometidos a desactivación de alta eficiencia, incineración, reciclaje, disposición en rellenos sanitarios, u otros sistemas de tratamiento dividido entre la cantidad total de residuos que fueron generados
+            p Es el cálculo de la cantidad de residuos sometidos a desactivación de alta eficiencia, incineración, reciclaje, disposición en rellenos sanitarios, u otros sistemas de tratamiento dividido entre la cantidad total de residuos que fueron generados.
             img(src='@/assets/curso/temas/3/7.svg', alt='').px-5
             p Para este último se debe especificar a qué otro tipo de sistemas se hace referencia, en caso de presentarse más de uno se debe realizar el cálculo para cada uno de estos.
           div(titulo="Reducción en la cantidad de residuos producidos:")
             p Porcentaje de avance del programa de formación y educación.
               br
-              |Este indicador muestra el total de talleres que se han hecho efectivos, con relación al total programadas
+              br
+              |Este indicador muestra el total de talleres que se han hecho efectivos, con relación al total programadas.
             img(src='@/assets/curso/temas/3/8.svg', alt='').px-5
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -143,7 +176,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.justify-content-center.mb-5
-          .col-lg-2: img(src='@/assets/curso/temas/3/9.svg', alt='')
+          .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/9.svg', alt='')
           .col-lg-10
             div(style="background-color: #DEE9F0").p-4
               p.mb-0 La organización, de acuerdo con sus metas planteadas, debe formular otro tipo de indicadores que le permitan medir su desempeño en términos cuantitativos. Es el caso del indicador de producción, que varía de acuerdo con cada organización y que es de vital importancia para medir la efectividad de sus procesos planteados.
@@ -161,60 +194,61 @@
       .row.justify-content-center.mb-5
         .col-lg-7
           ul.lista-ul--color.fw-bold
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Nombre del indicador
-            li.mb-0
+              p.mb-0.fw-bold Nombre del indicador
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              | Objetivo del indica
+              p.mb-0.fw-bold  Objetivo del indica
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              | Tipo de indicador
-            li.mb-0
+              p.mb-0.fw-bold  Tipo de indicador
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Nivel del indicador
-            li.mb-0
+              p.mb-0.fw-bold Nivel del indicador
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Fórmula
+              p.mb-0.fw-bold Fórmula
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Periodicidad
+              p.mb-0.fw-bold Periodicidad
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Fuente de datos
+              p.mb-0.fw-bold Fuente de datos
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Responsable de generar los datos
-            li.mb-0
+              p.mb-0.fw-bold Responsable de generar los datos
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Quién lo mide
-            li.mb-0
+              p.mb-0.fw-bold Quién lo mide
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              | Responsable de análisis del indicador
+              p.mb-0.fw-bold  Responsable de análisis del indicador
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Interpretación
+              p.mb-0.fw-bold Interpretación
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              | Límites de interpretación o rangos o criterio de análisis (condición crítica, normal y satisfactoria)
+              p.mb-0.fw-bold  Límites de interpretación o rangos o criterio de análisis (condición crítica, normal y satisfactoria)
 
-            li.mb-0
+            li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              |Meta establecida Creos Ltda. (2016)
+              p.mb-0.fw-bold Meta establecida Creos Ltda. (2016)
         .col-lg-4: img(src='@/assets/curso/temas/3/19.png', alt='')
     Separador 
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.4 Solicitud de certificados
     .card-tema.p-4.mb-5(style="background-color: #FAEDC0")
-      img.d-lg-block.d-none(src='@/assets/curso/temas/3/10.png', alt='' style="width: 320px; left: 5%").px-5
+      img.d-xl-block.d-none.card-1(src='@/assets/curso/temas/3/10.png', alt='' style="width: 320px; left: 5%").px-5
       .row.justify-content-center.align-items-center
         .col-lg-4
+          img.d-xl-none.d-block.m-auto(src='@/assets/curso/temas/3/10.png', alt='' style="width: 320px; left: 5%").px-5
         .col-lg-8
           p.mb-0.p-2 #[b La organización en cabeza del Grupo de Gestión Ambiental o el Gestor Ambiental debe asegurarse que las empresas prestadoras del servicio de aprovechamiento, almacenamiento, acopio, tratamiento y/o disposición final de residuos sólidos peligrosos y no peligrosos, cuenten con las respectivas licencias o permisos expedidos por la autoridad ambiental] para realizar estas labores; así mismo, de solicitar a terceros, los documentos donde se verifique esta situación, junto con los certificados sobre la disposición adecuada de los residuos que la organización entrega.
             br

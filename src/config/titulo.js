@@ -1,2 +1,1 @@
-module.exports =
-  'Gestionar integralmente el manejo de residuos, según normativa vigente.'
+module.exports = 'Monitoreo en la gestión integral de residuo'

@@ -16,8 +16,7 @@
     figcaption.d-inline-block.mb-5 (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4)
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Figura 1
-      br
-      span.fst-italic Manejo integral de residuos
+      | #[em Manejo integral de residuos]
     .row.justify-content-center.mb-3
       .col-lg-10 
         img(src='@/assets/curso/temas/1/2.svg', alt='')
@@ -37,7 +36,6 @@
     p.mb-5(data-aos='fade-right') El manejo integral de Residuos implica la planeación y cobertura de las actividades relacionadas con los residuos, desde la generación hasta la disposición final, incluyendo los aspectos de segregación, movimiento interno, almacenamiento, desactivación, recolección, transporte y tratamiento, con lo cual se pretende evitar y minimizar la generación de residuos e incrementar el aprovechamiento de éstos, de tal suerte que cada vez sea menor la cantidad de residuos a disponer, como se puede observar en el esquema de jerarquización en la figura 2 de la gestión de los residuos. (Universidad Pontificia Bolivariana y Área metropolitana del valle de aburra, 2008)
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Figura 2 
-      br
       span.fst-italic Jerarquía en la gestión de residuos
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -46,10 +44,10 @@
     .d-inline-block.rounded-pill.tarjeta.color-primario.p-3.mb-4
       h4.text-white.mb-0.mx-3  Gestión     
     .bg-tema1.p-5
-      p.mb-5(data-aos='fade-right') Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.” (Área de salud de Cáceres, 2015, p.2).
+      p.mb-5(data-aos='fade-right') “Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.” (Área de salud de Cáceres, 2015, p.2).
       .row.justify-content-center.mb-4
         .col-lg-5.mb-lg-0.mb-3
-          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
+          .tarjeta.tarjeta-slide.arriba.d-none.d-lg-block.d-md-block(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
@@ -64,9 +62,14 @@
                   | 2) Clasificación de estos residuos en grupos en función de su peligrosidad o posibilidad de reciclaje.
                   br
                   | 3) Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/1/5.png')})`}")
+              .tarjeta-slide__img.h-100(style="background-color: #00bc86").p-5
+                .d-flex.justify-content-center.mb-3
+                    .d-inline-block.rounded-pill.tarjeta.color-primario.p-3
+                      h4.text-white.mb-0.mx-3 Gestión Interna de residuos: 
+                img(src='@/assets/curso/temas/1/a.png', alt='')
+
         .col-lg-5
-          .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
+          .tarjeta.tarjeta-slide.arriba.d-none.d-lg-block.d-md-block(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
@@ -79,13 +82,43 @@
                   | 1) Recogida y transporte a Plantas de Transferencia o Tratamiento.
                   br
                   | 2) Tratamiento y eliminación.” (Área de salud de Cáceres, 2015, p.2).
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/1/6.png')})`}")
+              .tarjeta-slide__img.h-100(style="background-color: #badc61").p-5
+                .d-flex.justify-content-center.mb-3
+                    .d-inline-block.rounded-pill.tarjeta.color-primario.p-3
+                      h4.text-white.mb-0.mx-3 Gestión Externa de residuos:
+                img(src='@/assets/curso/temas/1/b.png', alt='')
+      .row.justify-content-center.mb-4
+        .col-lg-5.mb-lg-0.mb-3
+          .tarjeta.d-md-none.d-lg-none.d-block.p-5( style="background-color: #d3ede5 ")
+            h4.mb-3 Gestión Interna de residuos:
+            p Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organizació
+              br
+              br
+              | 1) Dotación de contenedores donde depositar los residuos.
+              br
+              | 2) Clasificación de estos residuos en grupos en función de su peligrosidad o posibilidad de reciclaje.
+              br
+              | 3) Transporte de los residuos al almacén central de residuos sanitarios del centro.” (Área de salud de Cáceres, 2015, p.2).
+              
+
+      .row.justify-content-center.mb-4
+        .col-lg-5.mb-lg-0.mb-3
+          .tarjeta.d-md-none.d-lg-none.d-block.p-5( style="background-color: #d3ede5 ")
+            h4.mb-3 Gestión Externa de residuos:
+            p Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación.
+              br
+              br
+              | 1) Recogida y transporte a Plantas de Transferencia o Tratamiento.
+              br
+              | 2) Tratamiento y eliminación.” (Área de salud de Cáceres, 2015, p.2).
       .row.justify-content-center.mb-5
         .col-lg-10
-          div(style="background-color: #faedc0").d-inline-flex.align-items-start
-            img(src='@/assets/curso/temas/1/icon.svg', alt='' style="width: 110px").me-5
-            .textos(style="width: 80%").p-4
-              p Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” (Área de salud de Cáceres, 2015, p.2).
+          div(style="background-color: #faedc0")
+            .row.justify-content-center.mb-5.align-items-center
+              .col-lg-2.col-3.pt-lg-0.pt-3.mb-lg-0.mb-3
+                img(src='@/assets/curso/temas/1/icon.svg', alt='' )
+              .col-lg-10
+                p.p-lg-0.p-3 “Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” (Área de salud de Cáceres, 2015, p.2).
 </template>
 
 <script>
