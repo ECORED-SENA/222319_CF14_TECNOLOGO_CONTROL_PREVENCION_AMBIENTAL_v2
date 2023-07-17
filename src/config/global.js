@@ -137,25 +137,24 @@ export default {
   },
   complementario: [
     {
-      tema: '2.2 Empresas gestoras de los residuos sólidos ',
+      tema: '2.2 Empresas gestoras de los residuos sólidos',
       referencia:
-        'Gómez, P. (2017). <em>Plan de negocio de empresa de reciclaje </em>[Video]. Youtube. ',
+        'Gómez, P. (2017). <em>Plan de negocio de empresa de reciclaje </em>',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=T1TZ2OpdC1w ',
+      link: 'https://www.youtube.com/watch?v=T1TZ2OpdC1w',
+    },
+    {
+      tema: '2.2 Empresas gestoras de los residuos sólidos',
+      referencia: 'Lito S.A.S. (2014).  <em>Video Institucional Lito SAS</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=wZv_ofWIRUQ',
     },
     {
       tema: '2.2 Empresas gestoras de los residuos sólidos',
       referencia:
-        'Lito S.A.S. (2014).  <em>Video Institucional Lito SAS</em> [Video]. Youtube.  ',
+        'Transporte residuos peligrosos soluciones de saneamiento ambiental. (2013). <em>Transporte residuos peligrosos</em>',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=J0AIEDkUVlk ',
-    },
-    {
-      tema: '2.2 Empresas gestoras de los residuos sólidos ',
-      referencia:
-        'Transporte residuos peligrosos soluciones de saneamiento ambiental. (2013). <em>Transporte residuos peligrosos</em> [Video]. Youtube.  ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=PjUOEpTLbBg ',
+      link: 'https://www.youtube.com/watch?v=PjUOEpTLbBg',
     },
   ],
   glosario: [

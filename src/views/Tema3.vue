@@ -156,17 +156,17 @@
         AcordionA.mb-5.acordion-i(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Reducción en la cantidad de residuos producidos:")
             p.px-5 Este indicador muestra la disminución en la cantidad total residuos generados por la organización incluyendo el material aprovechable y no aprovechable, peligroso o no peligroso, en otras palabras, es la sumatoria de todos los residuos generados, durante un periodo de tiempo determinado, el nivel de referencia se establece con el dato de generación de residuos aportado en el diagnóstico o con los datos del primer año de registros, comparado mes a mes:
-            img(src='@/assets/curso/temas/3/6.svg', alt='').px-5
+            img(src='@/assets/curso/temas/3/6.svg', alt='Fórmula que expresa el porcentaje de reducción de producción de residuos de una organización, el cual es igual a la cantidad de residuos producidos al año menos la cantidad de residuos producidos en al momento de la medición, dividido por entre los residuos producidos en el primer año, todo ello multiplicado por cien.').px-5
           div(titulo="Indicadores de destinación:")
             p Es el cálculo de la cantidad de residuos sometidos a desactivación de alta eficiencia, incineración, reciclaje, disposición en rellenos sanitarios, u otros sistemas de tratamiento dividido entre la cantidad total de residuos que fueron generados.
-            img(src='@/assets/curso/temas/3/7.svg', alt='').px-5
+            img(src='@/assets/curso/temas/3/7.svg', alt='Fórmulas para hallar el porcentaje de destinación de relleno sanitario, de destinación para reciclaje, de destinación para incineración y destinación para otros sistemas.').px-5
             p Para este último se debe especificar a qué otro tipo de sistemas se hace referencia, en caso de presentarse más de uno se debe realizar el cálculo para cada uno de estos.
           div(titulo="Reducción en la cantidad de residuos producidos:")
             p Porcentaje de avance del programa de formación y educación.
               br
               br
               |Este indicador muestra el total de talleres que se han hecho efectivos, con relación al total programadas.
-            img(src='@/assets/curso/temas/3/8.svg', alt='').px-5
+            img(src='@/assets/curso/temas/3/8.svg', alt='Fórmula que expresa cómo hallar el porcentaje de avance en los programas de formación y educación, el cual es igual al número de talleres realizados dividido entre el número de talleres planteados, multiplicado por cien.').px-5
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.3 Hoja de vida del indicador
@@ -181,14 +181,20 @@
             div(style="background-color: #DEE9F0").p-4
               p.mb-0 La organización, de acuerdo con sus metas planteadas, debe formular otro tipo de indicadores que le permitan medir su desempeño en términos cuantitativos. Es el caso del indicador de producción, que varía de acuerdo con cada organización y que es de vital importancia para medir la efectividad de sus procesos planteados.
     .row.justify-content-center.mb-5
-      .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-          .row.justify-content-around.align-items-center
-            .col-2
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg" style="width: 80px")
-            .anexo__texto
-              p.mb-0 Descargar Hoja de vida del Indicador
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 3
+          span.fst-italic Hoja de vida del indicador
+        img(src='@/assets/curso/temas/3/hv.png', alt='')
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-6
+    //-     a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+    //-       .row.justify-content-around.align-items-center
+    //-         .col-2
+    //-           .anexo__icono
+    //-             img(src="@/assets/template/icono-pdf.svg" style="width: 80px")
+    //-         .anexo__texto
+    //-           p.mb-0 Descargar Hoja de vida del Indicador
     .tarjeta.p-5.mb-5(style="background-color: #ECF7F4")
       p.mb-3 Para cumplir con este propósito de seguimiento, los indicadores deben contar, metodológicamente, con una hoja de vida que los defina y sustente, la cual contenga:
       .row.justify-content-center.mb-5

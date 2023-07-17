@@ -188,17 +188,103 @@
     p.mb-5(data-aos='fade-right') Se debe realizar seguimiento a las empresas gestoras para verificar su cumplimiento ambiental. Analizar la siguiente tabla 2 para que se identifiquen los elementos de tal seguimiento.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
-      | #[em Inspección de gestores externos]
-    //- .row.justify-content-center.mb-5
-    //-   .col-lg-10
-    //-     div(style="background-color: #f6f6f6 ")
-    //-       .tabla-b.mb-5
-    //-         .tabla-b__header(style="background-color: #80cab6 ")
-    //-           h5.mb-0(style="color: #12263F") Niveles del lenguaje
-    //-         table
-    //-           tr
-    //-             td Get back to work. Learn from criticism.
-        img(src='@/assets/curso/temas/2/10.svg', alt='')
+      span #[em Inspección de gestores externos]
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla-a.color-acento-botones.mb-5
+          table
+            caption Nota. Área metropolitana Valle de Aburra (2013).
+            thead(style="background-color: #80cab6; border-top: 0px")
+              tr
+                th(colspan="3") Auditoria interna
+            tbody
+              tr
+                td(colspan="3") Realizar inspecciones de control al interior de la organización con el fin de verificar el adecuado manejo de los residuos peligrosos, las medidas de seguridad y el control de los registros, entre otros.
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Fecha de la auditoria interna
+              tr.text-center
+                td(colspan="3") Fecha: _______________________________________________________________________________________ Hora:_______________
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Datos de quien realiza la auditoria
+              tr.text-center
+                td(colspan="3") Nombre: ____________________________________________________________________________________________________________________________
+                  br
+                  |Cargo: ______________________________________________________________________________________________________________________________
+                  br
+                  |Tipo Documento de identidad: __________________________________ No. Documento de identidad: ________________________________________
+                  br
+                  |Firma: _______________________________________________________________________________________________________________________________
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Gestión Interna
+              tr.text-center
+                td(colspan="3") A continuación se presenta una lista de chequeo general para la verificación de la gestión interna
+              tr.text-center
+                td Aspecto
+                td Cumple
+                td No. Cumple
+              tr
+                td Capacitaciones periódicas a todo el personal de la organización en matería de RESPEL.
+                td 
+                td 
+              tr
+                td El plan RESPEL esta a disposición para la consulta por parte de todo el personal de la organización.
+                td 
+                td 
+              tr
+                td Estrategias y acciones de minimización documentadas.
+                td 
+                td 
+              tr
+                td Estrategias y acciones de minimización implementadas
+                td 
+                td 
+              tr
+                td Inventario de sustancias químicas documentado y actualizado
+                td 
+                td 
+              tr
+                td Se actualiza los registros para sacar los indicadores.
+                td 
+                td 
+              tr
+                td Inventario de RESPEL documentado y actualizado
+                td 
+                td 
+              tr
+                td Todo los RESPEL clasificados de acuerdo al código de las corrientes y A de los Anexos I Y ii DEL DECRETO 4741 DE 2005
+                td 
+                td 
+              tr
+                td Hay recipientes suficientes para la separación de RESPEL
+                td 
+                td 
+              tr
+                td Todos los RESPEL están debidamente etiquetados
+                td 
+                td 
+              tr
+                td El sitio de almacenamiento de RESPEL cumple con las condiciones expuestas en la guía.
+                td 
+                td 
+              tr
+                td El sitio de almacenamiento de sustancias químicas cumple con las condiciones expuestas en la guía
+                td 
+                td 
+              tr
+                td Se cuenta con implemento de seguridad para la manipulación RESPEL y sustancias químicas.
+                td 
+                td 
+              tr
+                td El plan de contigencia esta documentado y disponible para la consulta de todos los empleados
+                td 
+                td 
+              tr
+                td Las estrategias planteadas en el Plan, se desarrollan de acuerdo a la programación del cronograma.
+                td 
+                td 
     figcaption.d-inline-block.mb-4 Nota. Área metropolitana Valle de Aburra (2013).
     p.mb-5 #[b En este proceso de seguimiento a las empresas gestoras de los residuos es muy IMPORTANTE:]
     div(style="background-color: #F3F9FF").p-4.mb-5
@@ -234,19 +320,19 @@
             .col-md-1: img(src='@/assets/curso/temas/2/15.svg', alt='')
             .col-md-10.mb-4.mb-md-0
               p.mb-0 Sin el certificado del gestor no le es posible entregar la cantidad exacta de lo que le entregó porque maneja residuos de varios generadores y entrega un certificado de cantidades grandes por ser el total de lo recogido de varias empresas; se debe solicitar que entregue el detallado, no sirve uno general porque no se identifica la trazabilidad o que apodere un documento adicional que garantice lo que se le entregó y sea válido para la autoridad ambiental.
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/2/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  p Se debe desarrollar la siguiente actividad, en la cual se podrá poner a prueba la aprehensión de los contenidos y conceptos trabajados hasta este punto, dentro del componente formativo. #[b ¡Adelante!] 
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
-                    span Ir a la actividad
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-10 
+    //-     .tarjeta.color-primario.p-3.mb-5
+    //-       .row.justify-content-around.align-items-center
+    //-         .col-3.col-sm-2.col-lg-1
+    //-           img(src="@/assets/curso/temas/2/icon.svg")
+    //-         .col
+    //-           .row.justify-content-between.align-items-center
+    //-             .col-9.mb-3.mb-sm-0
+    //-               p Se debe desarrollar la siguiente actividad, en la cual se podrá poner a prueba la aprehensión de los contenidos y conceptos trabajados hasta este punto, dentro del componente formativo. #[b ¡Adelante!] 
+    //-             .col.mb-3.mb-sm-0
+    //-               a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    //-                 span Ir a la actividad
 
 
 

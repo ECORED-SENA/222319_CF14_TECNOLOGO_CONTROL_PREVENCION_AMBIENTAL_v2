@@ -19,7 +19,7 @@
       | #[em Manejo integral de residuos]
     .row.justify-content-center.mb-3
       .col-lg-10 
-        img(src='@/assets/curso/temas/1/2.svg', alt='')
+        img(src='@/assets/curso/temas/1/2.svg', alt='Diagrama que describe el proceso debido de gestión integral de residuos: Generación de residuos sólidos, separación, almacenamiento, recolección y transporte, disposición final.')
     figcaption.d-inline-block.mb-5 Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
     br
     .d-inline-block.rounded-pill.tarjeta.color-primario.p-3.mb-4
@@ -39,7 +39,7 @@
       span.fst-italic Jerarquía en la gestión de residuos
     .row.justify-content-center.mb-5
       .col-lg-8
-        img(src='@/assets/curso/temas/1/4.svg', alt='').mb-3
+        img(src='@/assets/curso/temas/1/4.svg', alt='Esquema piramidal que enuncia los pasos de la jerarquía en la gestión de residuos: Prevenir y minimizar la generación, aprovechar y valorizar los residuos, darles tratamiento, disposición final de los residuos.').mb-3
         figcaption Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
     .d-inline-block.rounded-pill.tarjeta.color-primario.p-3.mb-4
       h4.text-white.mb-0.mx-3  Gestión     
