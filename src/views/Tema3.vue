@@ -141,6 +141,15 @@
                 .col-lg-1.col-2: img(src='@/assets/curso/temas/3/4.svg', alt='')
                 .col-lg-10
                   p Se requiere usar para el seguimiento, listas de chequeo, que pueden hacerse a manera de inspecciones planificadas cada cierto tiempo y mínimo una auditoría interna anual. 
+            .row.justify-content-center.mb-5
+              .col-lg-6
+                a.anexo.mb-4(:href="obtenerLink('downloads/auditoria_interna.pdf')" target="_blank")
+                  .row.justify-content-around.align-items-center
+                    .col-2
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg" style="width: 80px")
+                    .anexo__texto
+                      p.mb-0 Descargar Hoja de Auditoría interna
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2 Indicadores
