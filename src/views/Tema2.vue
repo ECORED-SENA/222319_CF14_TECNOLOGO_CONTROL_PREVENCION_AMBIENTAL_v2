@@ -21,10 +21,12 @@
         p.mb-0 #[b Se debe identificar] y describir en el Manejo Integral de Residuos la información de la empresa contratada y el tipo de manejo que reciben los residuos al exterior de la organización, en qué tipo de vehículo se recolectan, con qué frecuencia se hace, entre otra información asociada a esta actividad. Todos los generadores de residuos peligrosos deben conservar, hasta por un tiempo de cinco (5) años, las certificaciones de almacenamiento, aprovechamiento, valorización, tratamiento o disposición final de sus residuos, emitidos por los respectivos receptores.
     .row.justify-content-center.mb-5
       .col-lg-10
-        div(style="background-color: #faedc0").d-inline-flex.align-items-start
-          img(src='@/assets/curso/temas/1/icon.svg', alt='' style="width: 110px").me-5
-          .textos(style="width: 80%").p-4
-            p Hay que recordar que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
+        div(style="background-color: #faedc0")
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-2.col-3.pt-lg-0.pt-3.mb-lg-0.mb-3
+              img(src='@/assets/curso/temas/1/icon.svg', alt='' )
+            .col-lg-10
+              p.p-lg-0.p-3 Hay que recordar que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Tabla 1 
       | #[em Modelo de registro para el manejo externo de los residuos]\

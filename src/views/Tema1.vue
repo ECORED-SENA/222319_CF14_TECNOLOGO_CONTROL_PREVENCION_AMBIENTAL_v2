@@ -54,7 +54,7 @@
                 .d-flex.justify-content-center.mb-3
                   .d-inline-block.rounded-pill.tarjeta.color-primario.p-3
                     h4.text-white.mb-0.mx-3 Gestión Interna de residuos:
-                p Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organizació
+                p Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización.
                   br
                   br
                   | 1) Dotación de contenedores donde depositar los residuos.
