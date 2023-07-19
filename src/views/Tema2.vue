@@ -29,7 +29,7 @@
               p.p-lg-0.p-3 Hay que recordar que esta actividad se debe hacer para todos los residuos que se generen, incluyendo los peligrosos. Un ejemplo de esta actividad se presenta en la siguiente tabla 1:
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Tabla 1 
-      | #[em Modelo de registro para el manejo externo de los residuos]\
+      | #[em Modelo de registro para el manejo externo de los residuos]
     .tabla-a.color-acento-botones.mb-5
       table
         caption Nota. Universidad Pontificia Bolivariana y Área metropolitana del Valle de Aburrá (2008).
