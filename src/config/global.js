@@ -246,7 +246,7 @@ export default {
       referencia:
         'Decreto 1076 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible]. Por medio del cual se expide el Decreto Único Reglamentario del sector Ambiente y Desarrollo Sostenible. Mayo 26 de 2015.',
       link:
-        'http://www.ideam.gov.co/documents/11769/46844622/Dec+1076_2015.pdf/8c28b13e-0937-42bd-b4a2-4b99114f9362 ',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153',
     },
     {
       referencia:
