@@ -223,7 +223,7 @@ export default {
     {
       referencia:
         'Área metropolitana del Valle de Aburrá (2016). <em>Manual para el manejo integral de residuos sólidos en el Valle de Aburrá.</em> ',
-      link: 'https://asei.com.co/files/28_08_2013_02_43_59__upload.pdf',
+      link: '',
     },
     {
       referencia:
