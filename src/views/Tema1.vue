@@ -76,7 +76,7 @@
                 .d-flex.justify-content-center.mb-3
                   .d-inline-block.rounded-pill.tarjeta.color-primario.p-3
                     h4.text-white.mb-0.mx-3 Gestión Externa de residuos:
-                p Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación.
+                p “Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación.
                   br
                   br
                   | 1) Recogida y transporte a Plantas de Transferencia o Tratamiento.

@@ -186,7 +186,7 @@
               img(src='@/assets/curso/temas/2/9.png', alt='Texto que describa la imagen')
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Transporte externo de residuos sólidos
+      h2 2.2 Empresas gestoras de los residuos sólidos
     p.mb-5(data-aos='fade-right') Se debe realizar seguimiento a las empresas gestoras para verificar su cumplimiento ambiental. Analizar la siguiente tabla 2 para que se identifiquen los elementos de tal seguimiento.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2

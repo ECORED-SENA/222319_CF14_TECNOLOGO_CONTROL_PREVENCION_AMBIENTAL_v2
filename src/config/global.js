@@ -54,7 +54,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Elaboración de un plan de seguimiento',
+            titulo: 'Empresas gestoras de los residuos sólidos',
             hash: 't_2_2',
           },
         ],
@@ -126,11 +126,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/222319_CF14_DU.zip',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar HTML',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar HTML',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
