@@ -126,11 +126,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/222319_CF14_DU.zip',
       },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar HTML',
-      //   download: 'downloads/material.zip',
-      // },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar HTML',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
