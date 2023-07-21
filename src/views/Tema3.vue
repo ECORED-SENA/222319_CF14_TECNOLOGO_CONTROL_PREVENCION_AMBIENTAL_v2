@@ -15,7 +15,7 @@
       .col-lg-4.col-7: img(src='@/assets/curso/temas/3/1.png', alt='')
     Separador 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.1 Elaboración de un plan de seguimiento
+      h2 3.1 Elaboración de un plan de seguimiento 
     .row.justify-content-center.mb-5
       .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/2.svg', alt='')
       .col-lg-10
@@ -64,7 +64,7 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Identificar y verificar si se están separando adecuadamente los residuos generados en cada sector de la organización.
+                    p.mb-0 Identificar y verificar si se están separando adecuadamente los residuos generados en cada sector de la organización
                   li.d-flex
                     i.fas.fa-check
                     p.mb-0 Visitas a cada sector
@@ -80,7 +80,7 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Revisar si los sitios de almacenamiento cumplen con los requerimientos establecidos, mediante visitas programadas en compañía del personal de oficios varios.
+                    p.mb-0 Revisar si los sitios de almacenamiento cumplen con los requerimientos establecidos, mediante visitas programadas en compañía del personal de oficios varios
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Tratamiento
@@ -88,13 +88,13 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Verificar la entrega oportuna de los residuos a los entes externos encargados de su tratamiento.
+                    p.mb-0 Verificar la entrega oportuna de los residuos a los entes externos encargados de su tratamiento
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Determinar pesos de material entregado, así como los cambios que puedan generarse.
+                    p.mb-0 Determinar pesos de material entregado, así como los cambios que puedan generarse
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
+                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Disposición final
@@ -102,13 +102,13 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Verificar entrega oportuna de residuos que se disponen en relleno.
+                    p.mb-0 Verificar entrega oportuna de residuos que se disponen en relleno
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Determinar pesos de material entregado a la empresa de aseo encargada del transporte de los residuos.
+                    p.mb-0 Determinar pesos de material entregado a la empresa de aseo encargada del transporte de los residuos
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización.
+                    p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización
               td Grupo de Gestión Ambiental
             tr
               td.fw-bold.text-center Análisis de indicadores,elaboración de declaratoria
@@ -116,7 +116,7 @@
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Verificar rutas resolución interna y de horarios establecidos.
+                    p.mb-0 Verificar rutas resolución interna y de horarios establecidos
                   li.d-flex
                     i.fas.fa-check
                     p.mb-0 Cantidad de residuos separados por tipo
@@ -128,7 +128,7 @@
                     p.mb-0 Cantidad de residuos dispuestos en relleno sanitarios
                   li.d-flex
                     i.fas.fa-check
-                    p.mb-0 Cantidad de residuos reciclados y/o reutilizados.
+                    p.mb-0 Cantidad de residuos reciclados y/o reutilizados
               
               
               td Grupo de Gestión Ambiental
@@ -149,7 +149,7 @@
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg" style="width: 80px")
                     .anexo__texto
-                      p.mb-0 Descargar Hoja de Auditoría interna
+                      p.mb-0 Anexo. Formato de auditoría interna
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2 Indicadores
@@ -194,7 +194,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3
           span.fst-italic Hoja de vida del indicador
-        img(src='@/assets/curso/temas/3/hv.png', alt='')
+        img(src='@/assets/curso/temas/3/hv.png', alt='Formato en el que se diligencia la información necesaria para agilizar los procesos de cálculos y análisis de los indicadores de gestión.')
     //- .row.justify-content-center.mb-5
     //-   .col-lg-6
     //-     a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
@@ -265,7 +265,7 @@
         .col-lg-4
           img.d-xl-none.d-block.m-auto(src='@/assets/curso/temas/3/10.png', alt='' style="width: 320px; left: 5%").px-5
         .col-lg-8
-          p.mb-0.p-2 #[b La organización en cabeza del Grupo de Gestión Ambiental o el Gestor Ambiental debe asegurarse que las empresas prestadoras del servicio de aprovechamiento, almacenamiento, acopio, tratamiento y/o disposición final de residuos sólidos peligrosos y no peligrosos, cuenten con las respectivas licencias o permisos expedidos por la autoridad ambiental] para realizar estas labores; así mismo, de solicitar a terceros, los documentos donde se verifique esta situación, junto con los certificados sobre la disposición adecuada de los residuos que la organización entrega.
+          p.mb-0.p-2 La organización en cabeza del Grupo de Gestión Ambiental o el Gestor Ambiental debe asegurarse que las empresas prestadoras del servicio de aprovechamiento, almacenamiento, acopio, tratamiento y/o disposición final de residuos sólidos peligrosos y no peligrosos, cuenten con las respectivas licencias o permisos expedidos por la autoridad ambiental para realizar estas labores; así mismo, de solicitar a terceros, los documentos donde se verifique esta situación, junto con los certificados sobre la disposición adecuada de los residuos que la organización entrega.
             br
             br
             |En el certificado que se solicite a la organización que preste el servicio debe quedar claramente establecida la cantidad de residuos entregados para su respectivo manejo.

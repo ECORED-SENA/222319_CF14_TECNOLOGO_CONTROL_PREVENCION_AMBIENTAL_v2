@@ -30,7 +30,7 @@
           :style="{'background-image':`url(${require('@/assets/curso/temas/1/3.jpg')})`}"
         )
         .bloque-texto-g__texto.p-5
-          p.mb-0 De manera diferenciada, aunque en el mismo sentido y enfoque, gestión integral de residuos sólidos #[b “es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental], de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.” (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
+          p.mb-0 De manera diferenciada, aunque en el mismo sentido y enfoque, gestión integral de residuos sólidos #[b “es el conjunto de operaciones y disposiciones encaminadas a dar a los residuos producidos el destino más adecuado desde el punto de vista ambiental, de acuerdo con sus características, volumen, procedencia, costos, tratamiento, posibilidades de recuperación, aprovechamiento, comercialización y disposición final.”] (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.3)
     .d-inline-block.rounded-pill.tarjeta.color-primario.p-3.mb-4
       h4.text-white.mb-0.mx-3 El Manejo Integral
     p.mb-5(data-aos='fade-right') El manejo integral de Residuos implica la planeación y cobertura de las actividades relacionadas con los residuos, desde la generación hasta la disposición final, incluyendo los aspectos de segregación, movimiento interno, almacenamiento, desactivación, recolección, transporte y tratamiento, con lo cual se pretende evitar y minimizar la generación de residuos e incrementar el aprovechamiento de éstos, de tal suerte que cada vez sea menor la cantidad de residuos a disponer, como se puede observar en el esquema de jerarquización en la figura 2 de la gestión de los residuos. (Universidad Pontificia Bolivariana y Área metropolitana del valle de aburra, 2008)
@@ -54,7 +54,7 @@
                 .d-flex.justify-content-center.mb-3
                   .d-inline-block.rounded-pill.tarjeta.color-primario.p-3
                     h4.text-white.mb-0.mx-3 Gestión Interna de residuos:
-                p Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización.
+                p “Son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización.
                   br
                   br
                   | 1) Dotación de contenedores donde depositar los residuos.

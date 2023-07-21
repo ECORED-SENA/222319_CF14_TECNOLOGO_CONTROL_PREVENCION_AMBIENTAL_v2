@@ -186,7 +186,7 @@
               img(src='@/assets/curso/temas/2/9.png', alt='Texto que describa la imagen')
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Empresas gestoras de los residuos sólidos 
+      h2 2.2 Transporte externo de residuos sólidos
     p.mb-5(data-aos='fade-right') Se debe realizar seguimiento a las empresas gestoras para verificar su cumplimiento ambiental. Analizar la siguiente tabla 2 para que se identifiquen los elementos de tal seguimiento.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
@@ -198,97 +198,79 @@
             caption Nota. Área metropolitana Valle de Aburra (2013).
             thead(style="background-color: #80cab6; border-top: 0px")
               tr
-                th(colspan="3") Auditoria interna
+                th(colspan="3") Control e interventorías a los gestores externos
             tbody
               tr
-                td(colspan="3") Realizar inspecciones de control al interior de la organización con el fin de verificar el adecuado manejo de los residuos peligrosos, las medidas de seguridad y el control de los registros, entre otros.
+                td(colspan="3") Realizar inspecciones de control a las empresas gestoras con el fin de verificar el adecuado manejo de los residuos peligrosos, las medidas de seguridad, el control de los registros y las condiciones técnicas de los vehiculos, entre otro.
               tr
                 td(colspan="3" style="background-color: #80cab6") 
-                  h5.text-center.mb-0 Fecha de la auditoria interna
-              tr.text-center
+                  h5.text-center.mb-0 Fecha de interventoría
+              tr
                 td(colspan="3") Fecha: _______________________________________________________________________________________ Hora:_______________
               tr
                 td(colspan="3" style="background-color: #80cab6") 
-                  h5.text-center.mb-0 Datos de quien realiza la auditoria
-              tr.text-center
-                td(colspan="3") Nombre: ____________________________________________________________________________________________________________________________
+                  h5.text-center.mb-0 Información general
+              tr
+                td(colspan="3") Nombre de la empresa gestora:________________________________________________________________________
                   br
-                  |Cargo: ______________________________________________________________________________________________________________________________
+                  |Dirección: ______________________________________________________________________________________________________________________________
                   br
-                  |Tipo Documento de identidad: __________________________________ No. Documento de identidad: ________________________________________
+                  |Municipio: __________________________________ Telefono: ________________________________________
                   br
-                  |Firma: _______________________________________________________________________________________________________________________________
+                  |Fax _______________________________________________________________________________________________________________________________
               tr
                 td(colspan="3" style="background-color: #80cab6") 
-                  h5.text-center.mb-0 Gestión Interna
+                  h5.text-center.mb-0 Información ambiental
+              tr
+                td(colspan="3") Cuenta con licencia ambiental :  Si________  No______________________________________
+                  br
+                  |Numero de licencia: _________________________ Fecha de expedicion: _________________
+                  br
+                  |Vigencia de la licencia: __________________________________ 
+                  br
+                  |Autoridad que expide la licencia: ___________________________
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Manejo de los RESPEL
+              tr
+                td(colspan="3") Tipo de manejo que realiza la empresa
+                  br
+                  | Aprovechamiento_______ Tratamiento________ Disposición final_______ 
+                  br
+                  | De los residuos generados en la organización, cuales son aprovechados por la empresa gestora:
+                  br
+                  |________________________________________________________
+                  br
+                  | De los residuos generados en la organización, cuales son tirados por la empresa gestora:
+                  br
+                  |________________________________________________________
+                  br
+                  | De los residuos generados en la organización, cuales son dispuestos por la empresa gestora:
+                  br
+                  |________________________________________________________
+                  br
+                  | La actividad de la empresa gestora coincide con la registrada en la licencia ambientas Si _____ No _____
+                  br
+                  | Los residuos gestionados coinciden con los registrados en la licencia ambiental Si _____ No _____
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Datos de quien realiza la interventoría
+                
+              tr
+                td(colspan="3") Nombre: ________________________________________________________
+                  br
+                  | Cargo: ________________________________________________________
+                  br
+                  | Tipo documento de identidad: _____________ No. Documento de identidad: _________________
+                  br
+                  | Firma: ___________________________________
+              tr
+                td(colspan="3" style="background-color: #80cab6") 
+                  h5.text-center.mb-0 Observaciones 
               tr.text-center
-                td(colspan="3") A continuación se presenta una lista de chequeo general para la verificación de la gestión interna
-              tr.text-center
-                td Aspecto
-                td Cumple
-                td No. Cumple
-              tr
-                td Capacitaciones periódicas a todo el personal de la organización en matería de RESPEL.
-                td 
-                td 
-              tr
-                td El plan RESPEL esta a disposición para la consulta por parte de todo el personal de la organización.
-                td 
-                td 
-              tr
-                td Estrategias y acciones de minimización documentadas.
-                td 
-                td 
-              tr
-                td Estrategias y acciones de minimización implementadas
-                td 
-                td 
-              tr
-                td Inventario de sustancias químicas documentado y actualizado
-                td 
-                td 
-              tr
-                td Se actualiza los registros para sacar los indicadores.
-                td 
-                td 
-              tr
-                td Inventario de RESPEL documentado y actualizado
-                td 
-                td 
-              tr
-                td Todo los RESPEL clasificados de acuerdo al código de las corrientes y A de los Anexos I Y ii DEL DECRETO 4741 DE 2005
-                td 
-                td 
-              tr
-                td Hay recipientes suficientes para la separación de RESPEL
-                td 
-                td 
-              tr
-                td Todos los RESPEL están debidamente etiquetados
-                td 
-                td 
-              tr
-                td El sitio de almacenamiento de RESPEL cumple con las condiciones expuestas en la guía.
-                td 
-                td 
-              tr
-                td El sitio de almacenamiento de sustancias químicas cumple con las condiciones expuestas en la guía
-                td 
-                td 
-              tr
-                td Se cuenta con implemento de seguridad para la manipulación RESPEL y sustancias químicas.
-                td 
-                td 
-              tr
-                td El plan de contigencia esta documentado y disponible para la consulta de todos los empleados
-                td 
-                td 
-              tr
-                td Las estrategias planteadas en el Plan, se desarrollan de acuerdo a la programación del cronograma.
-                td 
-                td 
-    figcaption.d-inline-block.mb-4 Nota. Área metropolitana Valle de Aburra (2013).
-    p.mb-5 #[b En este proceso de seguimiento a las empresas gestoras de los residuos es muy IMPORTANTE:]
+                td(colspan="3") 
+              
+    p.mb-5 #[b En este proceso de seguimiento a las empresas gestoras de los residuos es muy importante:]
     div(style="background-color: #F3F9FF").p-4.mb-5
       PasosB.color-acento-contenido(text-small)
         .tarjeta(titulo="" style="background-color: #DEEFFF").p-4
