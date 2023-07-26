@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Monitoreo en la gestión integral de residuos',
     descripcionCurso:
-      'En este componente formativo, partiendo de una base teórica-conceptual se realizará la explicación de la gestión externa en la empresa con relación al plan de gestión integral de residuos y el monitoreo de la gestión integral de residuos, necesarios en los procesos de mejora continua de las organizaciones.',
+      'En este componente formativo, partiendo de una base teórica-conceptual, se realizará la explicación de la gestión externa en la empresa con relación al plan de gestión integral de residuos y el monitoreo de la gestión integral de residuos, necesarios en los procesos de mejora continua de las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     // imagenesDecorativasBanner: [
@@ -162,47 +162,47 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Aprovechamiento y/o valorización ',
+      termino: 'Aprovechamiento y/o valorización',
       significado:
         '“es el proceso de recuperar el valor remanente o el poder calorífico de los materiales que componen los residuos o desechos peligrosos, por medio de la recuperación, el reciclado o la regeneración”. (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2015). ',
     },
     {
-      termino: 'Disposición final ',
+      termino: 'Disposición final',
       significado:
         '“es el proceso de aislar y confinar los residuos o desechos peligrosos, en especial los no aprovechables, en lugares especialmente seleccionados, diseñados y debidamente autorizados, para evitar la contaminación y los daños o riesgos a la salud humana y al ambiente.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2015). ',
     },
     {
-      termino: 'Gestión Interna de residuos ',
+      termino: 'Gestión Interna de residuos',
       significado:
         '“son las operaciones de manipulación, clasificación, envasado, etiquetado y traslado al almacén temporal dentro del propio lugar u organización. <br> 1) Dotación de contenedores donde depositar los residuos. 2) Clasificación de estos residuos en grupos en función de su peligrosidad o posibilidad de reciclaje.  <br> 3) Transporte de los residuos al almacén central de residuos sanitarios del centro.”  (Área de salud de Cáceres, 2015). ',
     },
     {
-      termino: 'Gestión Externa de residuos ',
+      termino: 'Gestión Externa de residuos',
       significado:
-        '“son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 4) Recogida y transporte a Plantas de Transferencia o Tratamiento. 5) Tratamiento y eliminación. Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.”  (Área de salud de Cáceres, 2015). ',
+        '“son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 4) Recogida y transporte a Plantas de Transferencia o Tratamiento. 5) Tratamiento y eliminación. Desde un punto de vista general, los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.”  (Área de salud de Cáceres, 2015). ',
     },
     {
-      termino: 'Indicador ',
+      termino: 'Indicador',
       significado:
         '“un indicador es una comparación entre dos o más tipos de datos que sirve para elaborar una medida cuantitativa o una observación cualitativa. Esta comparación arroja un valor, una magnitud o un criterio, que tiene significado para quien lo analiza.” (OIT, 2011). ',
     },
     {
-      termino: 'Manejo integral de residuos ',
+      termino: 'Manejo integral de residuos',
       significado:
         '“es el conjunto de actividades que se realizan desde la generación hasta la eliminación del residuo o desecho sólido. Comprende las actividades de separación en la fuente, presentación, recolección, transporte, almacenamiento, tratamiento y/o la eliminación de los residuos o desechos sólidos.” (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002). ',
     },
     {
-      termino: 'Residuo sólido o desecho ',
+      termino: 'Residuo sólido o desecho',
       significado:
         '“es cualquier objeto, material, sustancia o elemento sólido resultante del consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales, de servicios, que el generador abandona, rechaza o entrega y que es susceptible de aprovechamiento o transformación en un nuevo bien, con valor económico o de disposición final. Los residuos sólidos se dividen en aprovechables y no aprovechables. Igualmente, se consideran como residuos sólidos aquellos provenientes del barrido de áreas públicas.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2002). ',
     },
     {
-      termino: 'Residuo peligroso ',
+      termino: 'Residuo peligroso',
       significado:
-        '“es aquel que por sus características infecciosas, tóxicas, explosivas, corrosivas, inflamables, volátiles, combustibles, radiactivas o reactivas puedan causar riesgo a la salud humana o deteriorar la calidad ambiental hasta niveles que causen riesgo a la salud humana. También son residuos peligrosos aquellos que sin serlo en su forma original se transforman por procesos naturales en residuos peligrosos. Así mismo, se consideran residuos peligrosos los envases, empaques y embalajes que hayan estado en contacto con ellos.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2002). ',
+        '“es aquel que por sus características infecciosas, tóxicas, explosivas, corrosivas, inflamables, volátiles, combustibles, radiactivas o reactivas puedan causar riesgo a la salud humana o deteriorar la calidad ambiental hasta niveles que causen riesgo a la salud humana. También son residuos peligrosos aquellos que sin serlo en su forma original, se transforman por procesos naturales en residuos peligrosos. Así mismo, se consideran residuos peligrosos los envases, empaques y embalajes que hayan estado en contacto con ellos.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2002). ',
     },
     {
-      termino: 'Residuos Especiales ',
+      termino: 'Residuos Especiales',
       significado:
         '“son aquellos residuos que por su naturaleza, composición, tamaño, volumen y peso no puedan ser recolectados, manejados, tratados o dispuestos normalmente por la persona prestadora del servicio. Incluye los residuos producto de las actividades de corte de césped y poda de árboles ubicados en las vías y áreas públicas; aquellos provenientes del barrido y limpieza de vías y áreas públicas, y los residuos provenientes de actividades de construcción y demás obras civiles.” (Área metropolitana del Valle de Aburrá, 2016). ',
     },
@@ -212,7 +212,7 @@ export default {
         '“es el proceso mediante el cual se aprovechan y transforman los residuos sólidos recuperados y se devuelve a los materiales su potencialidad de reincorporación como materia prima para la fabricación de nuevos productos. El reciclaje puede constar de varias etapas: procesos de tecnologías limpias.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2002). ',
     },
     {
-      termino: 'Reutilización ',
+      termino: 'Reutilización',
       significado:
         '“es la prolongación y adecuación de la vida útil de los residuos sólidos recuperados y que mediante procesos, operaciones o técnicas devuelven a los materiales su posibilidad de utilización en su función original o en alguna relacionada, sin que para ello requieran procesos adicionales de transformación.” (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2002). ',
     },
@@ -257,9 +257,10 @@ export default {
       link: 'https://es.slideshare.net/albacora_48/indicadores-de-gestion-mme',
     },
     {
-      referencia: 'OIT. (2011) ¿Qué son y cómo se construyen los indicadores?',
+      referencia:
+        'OIT. (2011) ¿Qué son y cómo se construyen los indicadores en la evaluación de impacto?',
       link:
-        'ttps://guia.oitcinterfor.org/como-evaluar/como-se-construyen-indicadores',
+        'https://guia.oitcinterfor.org/como-evaluar/como-se-construyen-indicadores',
     },
     {
       referencia:

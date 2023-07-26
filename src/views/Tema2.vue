@@ -11,7 +11,7 @@
       .col-lg-8.mb-lg-0.mb-3
         div(style="background-color: #ecf7f4").p-5.h-100
           .d-flex.justify-content-center.align-items-.row.justify-content-center
-            p.mb-0 #[b La gestión externa] tiene que ver con la recolección y transporte externo del gestor de residuos y del establecimiento de reciclaje, reutilización. Compostaje, tratamiento y/o disposición final de los residuos por parte del gestor ambiental. El manejo externo de los residuos sólidos incluye todas las actividades que se realizan cuando éstos salen de la organización.
+            p.mb-0 #[b La gestión externa] tiene que ver con la recolección y transporte externo del gestor de residuos y del establecimiento de reciclaje, reutilización. Compostaje, tratamiento y/o disposición final de los residuos por parte del gestor ambiental. El manejo externo de los residuos sólidos incluye todas las actividades que se realizan cuando estos salen de la organización.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/2/1.png', alt='')
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -103,7 +103,7 @@
           tr
             td 5
             td Estopas impregnadas con solventes
-            td ASEI Ltda
+            td SEI Ltda
             td 
             td ASEI Ltda
             td 
@@ -170,7 +170,7 @@
           .col-md-5.mb-4.mb-md-0
             .tarjeta.rounded-circle.color-primario.d-inline-block.p-3.mb-4
               h4.text-white.mb-0.mx-1 6
-            p El manifiesto de transporte de residuos peligrosos es un documento donde se relacionan: tipo y cantidad de residuos transportados, nombre del generador, destino, fecha del transporte, firma de quien entrega, nombre del conductor, placa del vehículo, etc. Una copia del documento queda en poder del generador y el original en poder del prestador del servicio. Los manifiestos de residuos peligrosos serán implementados por las empresas prestadoras del servicio público especial de aseo. ¡Se prohíbe mezclar residuos peligrosos con no peligrosos; sólo se recogerán los residuos debidamente empacados, identificados y relacionados en el manifiesto de Transporte.
+            p El manifiesto de transporte de residuos peligrosos es un documento donde se relacionan: tipo y cantidad de residuos transportados, nombre del generador, destino, fecha del transporte, firma de quien entrega, nombre del conductor, placa del vehículo, etc. Una copia del documento queda en poder del generador y el original en poder del prestador del servicio. Los manifiestos de residuos peligrosos serán implementados por las empresas prestadoras del servicio público especial de aseo. ¡Se prohíbe mezclar residuos peligrosos con no peligrosos; solo se recogerán los residuos debidamente empacados, identificados y relacionados en el manifiesto de Transporte!
 
           .col-md-7
             figure
@@ -201,7 +201,7 @@
                 th(colspan="3") Control e interventorías a los gestores externos
             tbody
               tr
-                td(colspan="3") Realizar inspecciones de control a las empresas gestoras con el fin de verificar el adecuado manejo de los residuos peligrosos, las medidas de seguridad, el control de los registros y las condiciones técnicas de los vehiculos, entre otro.
+                td(colspan="3") Realizar inspecciones de control a las empresas gestoras con el fin de verificar el adecuado manejo de los residuos peligrosos, las medidas de seguridad, el control de los registros y las condiciones técnicas de los vehiculos, entre otros.
               tr
                 td(colspan="3" style="background-color: #80cab6") 
                   h5.text-center.mb-0 Fecha de interventoría
@@ -224,7 +224,7 @@
               tr
                 td(colspan="3") Cuenta con licencia ambiental :  Si________  No______________________________________
                   br
-                  |Numero de licencia: _________________________ Fecha de expedicion: _________________
+                  |Numero de licencia: _________________________ Fecha de expedición: _________________
                   br
                   |Vigencia de la licencia: __________________________________ 
                   br
@@ -235,13 +235,13 @@
               tr
                 td(colspan="3") Tipo de manejo que realiza la empresa
                   br
-                  | Aprovechamiento_______ Tratamiento________ Disposición final_______ 
+                  | Aprovechamiento:_______   Tratamiento:________   Disposición final:_______ 
                   br
                   | De los residuos generados en la organización, cuales son aprovechados por la empresa gestora:
                   br
                   |________________________________________________________
                   br
-                  | De los residuos generados en la organización, cuales son tirados por la empresa gestora:
+                  | De los residuos generados en la organización, cuales son tratados por la empresa gestora:
                   br
                   |________________________________________________________
                   br

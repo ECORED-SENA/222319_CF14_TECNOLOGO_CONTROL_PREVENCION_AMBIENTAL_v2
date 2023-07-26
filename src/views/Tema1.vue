@@ -46,7 +46,7 @@
     .bg-tema1.p-5
       p.mb-5(data-aos='fade-right') “Se trata del conjunto de actividades orientadas a dar a los residuos sanitarios el destino final adecuado de acuerdo con las características de cada residuo.” (Área de salud de Cáceres, 2015, p.2).
       .row.justify-content-center.mb-4
-        .col-lg-5.mb-lg-0.mb-3
+        .col-lg-6.mb-lg-0.mb-3
           .tarjeta.tarjeta-slide.arriba.d-none.d-lg-block.d-md-block(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -68,7 +68,7 @@
                       h4.text-white.mb-0.mx-3 Gestión Interna de residuos: 
                 img(src='@/assets/curso/temas/1/a.png', alt='')
 
-        .col-lg-5
+        .col-lg-6
           .tarjeta.tarjeta-slide.arriba.d-none.d-lg-block.d-md-block(@mouseover="indicadorTarjetaSlide = false" style="height: 470px; background-color: #d3ede5 ")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -118,7 +118,7 @@
               .col-lg-2.col-3.pt-lg-0.pt-3.mb-lg-0.mb-3
                 img(src='@/assets/curso/temas/1/icon.svg', alt='' )
               .col-lg-10
-                p.p-lg-0.p-3 “Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” (Área de salud de Cáceres, 2015, p.2).
+                p.p-lg-0.p-3 “Desde un punto de vista general, los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos desde el momento de su generación hasta que son eliminados.” (Área de salud de Cáceres, 2015, p.2).
 </template>
 
 <script>

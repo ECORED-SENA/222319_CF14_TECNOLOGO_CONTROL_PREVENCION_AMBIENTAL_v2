@@ -111,7 +111,7 @@
                     p.mb-0 Verificar los certificados de las empresas encargadas del tratamiento a los residuos de la organización
               td Grupo de Gestión Ambiental
             tr
-              td.fw-bold.text-center Análisis de indicadores,elaboración de declaratoria
+              td.fw-bold.text-center Análisis de indicadores, elaboración de declaratoria
               td 
                 ul.lista-ul--color
                   li.d-flex
@@ -181,7 +181,7 @@
       h2 3.3 Hoja de vida del indicador
     .cajon-editado
       .cajon-b.color-acento-botones.p-3.mb-5
-        p.mb-0 En consecuencia, con los indicadores de gestión, es recomendable que los mismos se manejen mediante un formato donde se observe claramente como en la figura 3, el nombre del indicador, la fórmula de cálculo, la unidad de medida y la frecuencia con la que se debe medir para agilizar el trabajo y su posterior análisis.
+        p.mb-0 En consecuencia, con los indicadores de gestión, es recomendable que los mismos se manejen mediante un formato donde se observe claramente, como en la figura 3, el nombre del indicador, la fórmula de cálculo, la unidad de medida y la frecuencia con la que se debe medir para agilizar el trabajo y su posterior análisis.
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.justify-content-center.mb-5
@@ -214,7 +214,7 @@
               p.mb-0.fw-bold Nombre del indicador
             li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
-              p.mb-0.fw-bold  Objetivo del indica
+              p.mb-0.fw-bold  Objetivo del indicador
 
             li.mb-0.d-flex
               i.fas.fa-check(style="color: #FEB12E")
