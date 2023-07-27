@@ -13,7 +13,6 @@
           .d-flex.justify-content-center.align-items-.row.justify-content-center
             p.mb-0 #[b Manejo integral de residuos:] como se observa en la figura 1, “es el conjunto de actividades que se realizan desde la generación hasta la eliminación del residuo o desecho sólido. Comprende las actividades de separación en la fuente, presentación, recolección, transporte, almacenamiento, tratamiento y/o la eliminación de los residuos o desechos sólidos.”
       .col-lg-4.col-7: img(src='@/assets/curso/temas/1/1.png', alt='')
-    figcaption.d-inline-block.mb-5 (Ministerio de Ambiente Vivienda y Desarrollo Territorial, 2002, p.4)
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Figura 1
       | #[em Manejo integral de residuos]
